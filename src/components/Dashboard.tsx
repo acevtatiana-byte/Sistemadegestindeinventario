@@ -9,7 +9,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { dailySalesData, mockProducts, mockSales } from "../lib/mockData";
+import { dailySalesData, mockProducts, mockSales } from "../lib";
 
 export function Dashboard() {
   const todaySales = mockSales

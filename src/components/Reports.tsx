@@ -16,7 +16,7 @@ import {
   Cell,
   Legend,
 } from "recharts";
-import { mockSales, mockProducts } from "../lib/mockData";
+import { mockSales, mockProducts } from "../lib";
 import { TrendingUp, DollarSign, Package } from "lucide-react";
 
 export function Reports() {

@@ -9,7 +9,7 @@ import {
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
-import { Product } from "../lib/mockData";
+import { Product } from "../lib";
 
 interface AddProductModalProps {
   open: boolean;

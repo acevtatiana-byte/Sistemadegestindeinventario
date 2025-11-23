@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Trash2, Barcode } from "lucide-react";
-import { mockProducts } from "../lib/mockData";
+import { mockProducts } from "../lib";
 import { toast } from "sonner@2.0.3";
 
 interface SaleItem {

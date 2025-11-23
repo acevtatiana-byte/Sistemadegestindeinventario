@@ -12,7 +12,7 @@ import {
 import { Badge } from "./ui/badge";
 import { Plus, Search } from "lucide-react";
 import { AddProductModal } from "./AddProductModal";
-import { mockProducts, Product } from "../lib/mockData";
+import { mockProducts, Product } from "../lib";
 
 export function Inventory() {
   const [products, setProducts] = useState<Product[]>(mockProducts);
